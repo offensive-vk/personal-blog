@@ -22,23 +22,23 @@ export default function Header() {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="font-heading font-bold text-2xl tracking-tight text-black">
+            <Link href="/" className="font-heading font-bold text-2xl tracking-tight text-foreground">
               Minimal Blog
             </Link>
           </div>
           
           {/* Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <Link href="/" className={`nav-link text-black hover:text-secondary transition-standard ${isActive('/') ? 'after:w-full' : ''}`}>
+            <Link href="/" className={`nav-link text-foreground hover:text-secondary transition-standard ${isActive('/') ? 'after:w-full' : ''}`}>
               Home
             </Link>
-            <Link href="/category/all" className={`nav-link text-black hover:text-secondary transition-standard ${isActive('/category/all') ? 'after:w-full' : ''}`}>
+            <Link href="/category/all" className={`nav-link text-foreground hover:text-secondary transition-standard ${isActive('/category/all') ? 'after:w-full' : ''}`}>
               Archives
             </Link>
-            <Link href="/about" className={`nav-link text-black hover:text-secondary transition-standard ${isActive('/about') ? 'after:w-full' : ''}`}>
+            <Link href="/about" className={`nav-link text-foreground hover:text-secondary transition-standard ${isActive('/about') ? 'after:w-full' : ''}`}>
               About
             </Link>
-            <Link href="/contact" className={`nav-link text-black hover:text-secondary transition-standard ${isActive('/contact') ? 'after:w-full' : ''}`}>
+            <Link href="/contact" className={`nav-link text-foreground hover:text-secondary transition-standard ${isActive('/contact') ? 'after:w-full' : ''}`}>
               Contact
             </Link>
           </nav>
@@ -54,7 +54,7 @@ export default function Header() {
               <input 
                 type="text" 
                 placeholder="Search..." 
-                className="pl-8 pr-4 py-1 w-full border-b border-accent focus:outline-none focus:border-black transition-standard text-sm"
+                className="pl-8 pr-4 py-1 w-full border-b border-accent focus:outline-none focus:border-foreground bg-transparent text-foreground transition-standard text-sm"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
               />
@@ -66,7 +66,7 @@ export default function Header() {
           <div className="md:hidden flex items-center">
             <button 
               type="button" 
-              className="text-black hover:text-secondary transition-standard"
+              className="text-foreground hover:text-secondary transition-standard"
               onClick={toggleMenu}
             >
               <i className="fas fa-bars text-xl"></i>
@@ -78,16 +78,16 @@ export default function Header() {
       {/* Mobile menu */}
       <div className={`md:hidden border-t border-accent ${isMenuOpen ? 'block' : 'hidden'}`}>
         <div className="px-2 pt-2 pb-3 space-y-1">
-          <Link href="/" className="block px-3 py-2 text-black hover:bg-accent transition-standard">
+          <Link href="/" className="block px-3 py-2 text-foreground hover:bg-accent transition-standard">
             Home
           </Link>
-          <Link href="/category/all" className="block px-3 py-2 text-black hover:bg-accent transition-standard">
+          <Link href="/category/all" className="block px-3 py-2 text-foreground hover:bg-accent transition-standard">
             Archives
           </Link>
-          <Link href="/about" className="block px-3 py-2 text-black hover:bg-accent transition-standard">
+          <Link href="/about" className="block px-3 py-2 text-foreground hover:bg-accent transition-standard">
             About
           </Link>
-          <Link href="/contact" className="block px-3 py-2 text-black hover:bg-accent transition-standard">
+          <Link href="/contact" className="block px-3 py-2 text-foreground hover:bg-accent transition-standard">
             Contact
           </Link>
         </div>
