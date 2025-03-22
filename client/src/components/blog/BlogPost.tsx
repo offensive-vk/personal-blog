@@ -49,7 +49,7 @@ export default function BlogPost({ post }: BlogPostProps) {
         </header>
         
         <div 
-          className="prose prose-lg max-w-none"
+          className="prose prose-lg max-w-none dark:prose-invert prose-headings:font-heading prose-headings:font-bold prose-h1:text-4xl prose-h2:text-3xl prose-h3:text-2xl prose-p:text-base prose-a:text-primary prose-a:no-underline hover:prose-a:underline prose-blockquote:border-l-primary prose-blockquote:bg-accent/30 prose-blockquote:py-1 prose-blockquote:px-4 prose-blockquote:italic prose-img:rounded-md prose-pre:bg-muted prose-pre:text-muted-foreground"
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
       </article>

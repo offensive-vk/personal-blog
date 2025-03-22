@@ -7,6 +7,7 @@ import fs from "fs";
 import path, { dirname } from "path";
 import { fileURLToPath } from "url";
 import { calculateReadingTime } from "../client/src/lib/markdownUtils";
+import { marked } from "marked";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -113,11 +114,14 @@ export class MemStorage implements IStorage {
           // Get the actual content after frontmatter
           const contentWithoutFrontmatter = content.replace(frontmatterRegex, '').trim();
           
+          // Convert markdown to HTML using marked
+          const htmlContent = marked.parse(contentWithoutFrontmatter) as string;
+          
           const post: Post = {
             id,
             slug: metadata.slug,
             title: metadata.title,
-            content: contentWithoutFrontmatter,
+            content: htmlContent,
             excerpt: metadata.excerpt,
             coverImage: metadata.coverImage,
             date: new Date(metadata.date),
