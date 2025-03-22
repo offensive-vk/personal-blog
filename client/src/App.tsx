@@ -8,6 +8,7 @@ import Post from "@/pages/post";
 import Category from "@/pages/category";
 import About from "@/pages/about";
 import Contact from "@/pages/contact";
+import Privacy from "@/pages/privacy";
 import Layout from "@/components/layout/Layout";
 
 function Router() {
@@ -18,6 +19,7 @@ function Router() {
       <Route path="/category/:category" component={Category} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
+      <Route path="/privacy" component={Privacy} />
       <Route component={NotFound} />
     </Switch>
   );
