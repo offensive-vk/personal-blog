@@ -59,7 +59,7 @@ export default function Layout({ children }: LayoutProps) {
                       <Link 
                         key={category} 
                         href={`/category/${category.toLowerCase()}`}
-                        className="px-2 py-1 text-xs border border-accent rounded-full transition-standard hover:bg-black hover:text-white cursor-pointer"
+                        className="px-2 py-1 text-xs border border-accent rounded-full transition-standard hover:bg-secondary hover:text-background cursor-pointer"
                       >
                         {category}
                       </Link>

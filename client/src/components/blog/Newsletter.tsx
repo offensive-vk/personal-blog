@@ -60,14 +60,14 @@ export default function Newsletter() {
           <input 
             type="email" 
             placeholder="Your email address" 
-            className="flex-grow px-4 py-2 border border-accent focus:outline-none focus:border-black transition-standard"
+            className="flex-grow px-4 py-2 border border-accent bg-transparent text-foreground focus:outline-none focus:border-foreground transition-standard"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
           />
           <button 
             type="submit" 
-            className="px-6 py-2 bg-black text-white hover:bg-gray-800 transition-standard"
+            className="px-6 py-2 bg-secondary text-background hover:bg-secondary/90 transition-standard"
             disabled={isSubmitting}
           >
             {isSubmitting ? "Subscribing..." : "Subscribe"}
