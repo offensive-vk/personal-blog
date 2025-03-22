@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "wouter";
 import { useSearch } from "@/hooks/useSearch";
+import { ThemeToggle } from "@/components/ui/theme-toggle";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,7 +17,7 @@ export default function Header() {
   };
 
   return (
-    <header className="border-b border-accent sticky top-0 bg-white z-10">
+    <header className="border-b border-accent sticky top-0 bg-background z-10">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
@@ -41,6 +42,11 @@ export default function Header() {
               Contact
             </Link>
           </nav>
+          
+          {/* Theme Toggle */}
+          <div className="flex items-center">
+            <ThemeToggle />
+          </div>
           
           {/* Search */}
           <div className="flex items-center search-expand transition-standard w-36 md:w-48">

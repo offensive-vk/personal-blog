@@ -158,6 +158,23 @@ export async function registerRoutes(app: Express): Promise<Server> {
       return res.status(500).json({ message: "Failed to send message" });
     }
   });
+  
+  // Handle theme changes
+  app.post("/api/theme", async (req: Request, res: Response) => {
+    try {
+      const { appearance } = req.body;
+      if (!appearance || (appearance !== 'light' && appearance !== 'dark')) {
+        return res.status(400).json({ message: "Invalid theme value" });
+      }
+      
+      // In a real application, you would save this to a database
+      // Here we just acknowledge the change
+      return res.status(200).json({ message: "Theme updated successfully" });
+    } catch (error) {
+      console.error("Error updating theme:", error);
+      return res.status(500).json({ message: "Failed to update theme" });
+    }
+  });
 
   const httpServer = createServer(app);
   return httpServer;
