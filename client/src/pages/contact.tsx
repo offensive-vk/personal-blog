@@ -118,7 +118,7 @@ export default function ContactPage() {
           <div className="grid md:grid-cols-2 gap-6">
             <div>
               <h3 className="font-heading font-bold mb-2">Email</h3>
-              <p className="text-secondary">contact@minimalblog.com</p>
+              <p className="text-secondary">superuser.ntsystems@outlook.com</p>
             </div>
             
             <div>

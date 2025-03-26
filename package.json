@@ -1,8 +1,13 @@
 {
-  "name": "rest-express",
+  "name": "personal-blog",
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
+  "author": {
+    "name": "Vedansh",
+    "email": "null",
+    "url": "github.com/offensive-vk"
+  },
   "scripts": {
     "dev": "tsx server/index.ts",
     "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
@@ -59,6 +64,7 @@
     "lucide-react": "^0.453.0",
     "marked": "^15.0.7",
     "memorystore": "^1.6.7",
+    "nanoid": "^5.1.5",
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
     "react": "^18.3.1",

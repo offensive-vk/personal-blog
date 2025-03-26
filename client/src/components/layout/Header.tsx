@@ -23,7 +23,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="font-heading font-bold text-2xl tracking-tight text-foreground">
-              Minimal Blog
+              My Minimal Blog
             </Link>
           </div>
           

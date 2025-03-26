@@ -5,7 +5,7 @@ export default function AboutPage() {
     <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="blog-content mx-auto prose prose-lg max-w-none dark:prose-invert text-foreground">
         <h1 className="font-heading text-4xl sm:text-5xl font-bold mb-8 border-b pb-4 border-accent text-foreground">
-          About Minimal Blog
+          About My Minimal Blog
         </h1>
         
         <p className="text-foreground">
@@ -45,7 +45,7 @@ export default function AboutPage() {
               className="w-24 h-24 rounded-full object-cover"
             />
             <div>
-              <h3 className="font-heading font-bold text-xl text-foreground">John Doe</h3>
+              <h3 className="font-heading font-bold text-xl text-foreground">John Smith</h3>
               <p className="text-secondary text-sm mb-2">Founder & Lead Writer</p>
               <p className="text-foreground">Focused on programming and development topics, with a particular interest in user interface design and frontend technologies.</p>
             </div>

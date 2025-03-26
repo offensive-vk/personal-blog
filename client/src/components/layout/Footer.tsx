@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <h2 className="font-heading font-bold text-2xl mb-4">Minimal Blog</h2>
+            <h2 className="font-heading font-bold text-2xl mb-4">My Minimal Blog</h2>
             <p className="text-secondary mb-6">
               A clean, minimalist blog focused on content and readability. Built with modern web technologies and a passion for simple design.
             </p>
@@ -90,7 +90,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-accent mt-12 pt-8 text-center text-sm text-secondary">
-          <p>&copy; {new Date().getFullYear()} Minimal Blog. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Vedansh (@offensive-vk). All rights reserved.</p>
         </div>
       </div>
     </footer>
