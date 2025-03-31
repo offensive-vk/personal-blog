@@ -7,9 +7,9 @@ excerpt: "Learn how to create a standout personal website that showcases your wo
 categories: ["Web Development", "Design", "Career"]
 featured: true
 author: 
-  name: "Emma Wilson"
+  name: "Vedansh"
   role: "Web Designer & Developer"
-  avatar: "https://images.unsplash.com/photo-1569913486515-b74bf7751574?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80"
+  avatar: ""
   twitter: "https://twitter.com"
   github: "https://github.com"
   linkedin: "https://linkedin.com"

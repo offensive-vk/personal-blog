@@ -6,9 +6,9 @@ coverImage: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=
 excerpt: "Welcome to our minimalist blog! Learn about what we'll be covering and how to get the most out of our content."
 categories: ["Writing", "Productivity"]
 author: 
-  name: "John Doe"
+  name: "Vedansh"
   role: "Content Writer & Web Developer"
-  avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80"
+  avatar: ""
   twitter: "https://twitter.com"
   github: "https://github.com"
   linkedin: "https://linkedin.com"

@@ -6,9 +6,9 @@ coverImage: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?ixlib=
 excerpt: "Uncover hidden GitHub features and advanced workflows that will boost your productivity, streamline collaboration, and transform how you manage your projects."
 categories: ["DevOps", "Programming", "Productivity"]
 author: 
-  name: "Sarah Johnson"
+  name: "Vedansh"
   role: "Open Source Advocate"
-  avatar: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80"
+  avatar: ""
   twitter: "https://twitter.com"
   github: "https://github.com"
   linkedin: "https://linkedin.com"

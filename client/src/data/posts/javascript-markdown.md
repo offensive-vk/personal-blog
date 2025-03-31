@@ -6,9 +6,9 @@ coverImage: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=
 excerpt: "Learn how to combine the simplicity of Markdown with the power of JavaScript to create dynamic, interactive user interfaces."
 categories: ["JavaScript", "Programming"]
 author: 
-  name: "John Doe"
+  name: "Vedansh"
   role: "Content Writer & Web Developer"
-  avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80"
+  avatar: ""
   twitter: "https://twitter.com"
   github: "https://github.com"
   linkedin: "https://linkedin.com"

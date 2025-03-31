@@ -6,9 +6,9 @@ coverImage: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-
 excerpt: "Discover how TypeScript can transform your JavaScript development experience with static typing, powerful tooling, and enhanced productivity features."
 categories: ["Programming", "Web Development"]
 author: 
-  name: "John Doe"
+  name: "Vedansh"
   role: "Senior Frontend Developer"
-  avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80"
+  avatar: ""
   twitter: "https://twitter.com"
   github: "https://github.com"
   linkedin: "https://linkedin.com"

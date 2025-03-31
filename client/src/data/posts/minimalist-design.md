@@ -6,9 +6,9 @@ coverImage: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=
 excerpt: "Why less is more: Understanding how minimalist design principles can improve reader engagement and content consumption."
 categories: ["Design", "Minimalism"]
 author: 
-  name: "Jane Smith"
+  name: "Vedansh"
   role: "Content Strategist"
-  avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80"
+  avatar: ""
   twitter: "https://twitter.com"
   linkedin: "https://linkedin.com"
 ---

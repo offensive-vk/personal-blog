@@ -40,27 +40,14 @@ export default function AboutPage() {
         <div className="grid md:grid-cols-2 gap-8 my-8">
           <div className="flex items-start space-x-4">
             <img 
-              src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150&q=80" 
+              src="@/assets/cover.jpg" 
               alt="John Doe" 
               className="w-24 h-24 rounded-full object-cover"
             />
             <div>
-              <h3 className="font-heading font-bold text-xl text-foreground">John Smith</h3>
+              <h3 className="font-heading font-bold text-xl text-foreground">Vedansh </h3>
               <p className="text-secondary text-sm mb-2">Founder & Lead Writer</p>
               <p className="text-foreground">Focused on programming and development topics, with a particular interest in user interface design and frontend technologies.</p>
-            </div>
-          </div>
-          
-          <div className="flex items-start space-x-4">
-            <img 
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150&q=80" 
-              alt="Jane Smith" 
-              className="w-24 h-24 rounded-full object-cover"
-            />
-            <div>
-              <h3 className="font-heading font-bold text-xl text-foreground">Jane Smith</h3>
-              <p className="text-secondary text-sm mb-2">Content Strategist</p>
-              <p className="text-foreground">Writes about productivity and minimalism, with a background in content design and information architecture.</p>
             </div>
           </div>
         </div>
