@@ -6,9 +6,9 @@ coverImage: "https://images.unsplash.com/photo-1533750516457-a7f992034fec?ixlib=
 excerpt: "Explore proven methods to overcome writer's block and establish a consistent writing routine that works for your lifestyle."
 categories: ["Writing", "Creativity"]
 author: 
-  name: "Jane Smith"
-  role: "Content Strategist"
-  avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80"
+  name: "Vedansh"
+  role: "Web Master"
+  avatar: ""
   twitter: "https://twitter.com"
   linkedin: "https://linkedin.com"
 ---

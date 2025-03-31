@@ -6,9 +6,9 @@ coverImage: "https://images.unsplash.com/photo-1580894912989-0bc892f4efd0?ixlib=
 excerpt: "Explore how modern C++ has evolved with powerful features, performance improvements, and safer programming practices that make it relevant even in today's cloud-native world."
 categories: ["Programming", "Systems Development"]
 author: 
-  name: "Alex Chen"
+  name: "Vedansh"
   role: "Systems Software Engineer"
-  avatar: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80"
+  avatar: ""
   twitter: "https://twitter.com"
   github: "https://github.com"
   linkedin: "https://linkedin.com"

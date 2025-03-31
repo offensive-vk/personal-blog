@@ -6,9 +6,9 @@ coverImage: "https://images.unsplash.com/photo-1508345228704-935cc84bf5e2?ixlib=
 excerpt: "Explore how continuous integration and continuous deployment revolutionize software delivery, with practical examples and tools to implement your own CI/CD pipeline."
 categories: ["DevOps", "Programming"]
 author: 
-  name: "Jane Smith"
+  name: "Vedansh"
   role: "DevOps Engineer"
-  avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80"
+  avatar: ""
   twitter: "https://twitter.com"
   github: "https://github.com"
   linkedin: "https://linkedin.com"
