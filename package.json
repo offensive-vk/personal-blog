@@ -6,7 +6,7 @@
   "author": {
     "name": "Vedansh",
     "email": "null",
-    "url": "github.com/offensive-vk"
+    "url": "https://github.com/offensive-vk"
   },
   "scripts": {
     "dev": "tsx server/index.ts",

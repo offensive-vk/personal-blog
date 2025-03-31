@@ -59,4 +59,4 @@ A clean, minimalist blog focused on content and readability.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](./license).
