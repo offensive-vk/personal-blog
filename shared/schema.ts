@@ -16,7 +16,7 @@ export const posts = pgTable("posts", {
   categories: text("categories").array().notNull(),
   authorName: text("author_name").notNull(),
   authorRole: text("author_role").notNull(),
-  authorAvatar: text("author_avatar").notNull(),
+  authorAvatar: text("author_avatar"),
   authorTwitter: text("author_twitter"),
   authorGithub: text("author_github"),
   authorLinkedin: text("author_linkedin"),

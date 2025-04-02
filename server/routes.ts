@@ -6,9 +6,6 @@ import { ZodError } from "zod";
 import { fromZodError } from "zod-validation-error";
 
 export async function registerRoutes(app: Express): Promise<Server> {
-  // API routes for blog
-  
-  // Get all posts
   app.get("/api/posts", async (_req: Request, res: Response) => {
     try {
       const posts = await storage.getAllPosts();
@@ -167,8 +164,6 @@ export async function registerRoutes(app: Express): Promise<Server> {
         return res.status(400).json({ message: "Invalid theme value" });
       }
       
-      // In a real application, you would save this to a database
-      // Here we just acknowledge the change
       return res.status(200).json({ message: "Theme updated successfully" });
     } catch (error) {
       console.error("Error updating theme:", error);
