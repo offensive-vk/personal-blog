@@ -26,6 +26,7 @@ export interface Post {
 export async function getAllPosts(): Promise<Post[]> {
   const response = await apiRequest("GET", "/api/posts", undefined);
   const posts = await response.json();
+  console.dir(posts);
   return posts;
 }
 
